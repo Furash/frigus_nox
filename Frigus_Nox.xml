@@ -7,9 +7,11 @@
         icon_alpha="1"
         icon_saturation="0.75"
         widget_emboss="#212429ff"
-        editor_outline="#2c3037"
+        editor_border="#272b31"
+        editor_outline="#2c303700"
+        editor_outline_active="#4f57642a"
         widget_text_cursor="#6b9699"
-        panel_roundness="0.25"
+        panel_roundness="0"
         transparent_checker_primary="#1e2023"
         transparent_checker_secondary="#32363d"
         transparent_checker_size="8"
@@ -29,6 +31,7 @@
         icon_modifier="#57bdabff"
         icon_shading="#fbfbfbff"
         icon_folder="#57bdabff"
+        icon_autokey="#ab3c48ff"
         icon_border_intensity="0"
         >
         <wcol_regular>
@@ -42,7 +45,7 @@
             show_shaded="FALSE"
             shadetop="-20"
             shadedown="15"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_regular>
@@ -57,7 +60,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="-5"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_tool>
@@ -72,7 +75,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_toolbar_item>
@@ -87,7 +90,7 @@
             show_shaded="FALSE"
             shadetop="2"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_radio>
@@ -102,7 +105,7 @@
             show_shaded="FALSE"
             shadetop="3"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_text>
@@ -117,7 +120,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_option>
@@ -132,7 +135,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_toggle>
@@ -147,7 +150,7 @@
             show_shaded="FALSE"
             shadetop="-4"
             shadedown="6"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_num>
@@ -162,7 +165,7 @@
             show_shaded="FALSE"
             shadetop="-4"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_numslider>
@@ -177,7 +180,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_box>
@@ -192,7 +195,7 @@
             show_shaded="FALSE"
             shadetop="10"
             shadedown="-10"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_menu>
@@ -207,7 +210,7 @@
             show_shaded="FALSE"
             shadetop="25"
             shadedown="-20"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_pulldown>
@@ -222,7 +225,7 @@
             show_shaded="FALSE"
             shadetop="25"
             shadedown="-20"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_menu_back>
@@ -237,7 +240,7 @@
             show_shaded="FALSE"
             shadetop="10"
             shadedown="-10"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_pie_menu>
@@ -252,7 +255,7 @@
             show_shaded="FALSE"
             shadetop="25"
             shadedown="-20"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_tooltip>
@@ -267,7 +270,7 @@
             show_shaded="FALSE"
             shadetop="38"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_menu_item>
@@ -282,7 +285,7 @@
             show_shaded="FALSE"
             shadetop="5"
             shadedown="-5"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_scroll>
@@ -297,7 +300,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_progress>
@@ -312,7 +315,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_list_item>
@@ -343,7 +346,7 @@
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
-            roundness="0.25"
+            roundness="0"
             >
           </ThemeWidgetColors>
         </wcol_tab>
@@ -387,8 +390,8 @@
         facedot_size="4"
         freestyle_face_mark="#98fbb633"
         face_retopology="#6aa2fb0f"
-        face_back="#fb5f1db3"
-        face_front="#fb5f1db3"
+        face_back="#fb001db3"
+        face_front="#0b11fbb3"
         nurb_uline="#6a9012"
         nurb_vline="#803f52"
         nurb_sel_uline="#befb5b"
@@ -415,13 +418,15 @@
         bone_pose_active="#a4e1fb"
         bone_solid="#c6c6c6"
         bone_locked_weight="#fbd70080"
+        frame_current="#57bdab"
+        before_current_frame="#f22e23"
+        after_current_frame="#78f244"
         bundle_solid="#c6c6c6"
         camera_path="#e0e0e0"
         camera_passepartout="#040404"
         skin_root="#b27960"
         view_overlay="#e0e0e0"
         transform="#e0e0e0"
-        frame_current="#57bdab"
         paint_curve_handle="#98fbb67f"
         paint_curve_pivot="#98fbb67f"
         outline_width="2"
@@ -844,8 +849,8 @@
         keyframe_breakdown_selected="#6c9eea"
         keyframe_movehold="#7f7f7f"
         keyframe_movehold_selected="#fbef3f"
-        keyframe_generated="#595959"
-        keyframe_generated_selected="#a19d73"
+        keyframe_generated="#585858"
+        keyframe_generated_selected="#a28962"
         keyframe_border="#040404ff"
         keyframe_border_selected="#040404ff"
         draw_action="#6aa2fb"
@@ -1009,10 +1014,11 @@
         script_node="#133d4f"
         pattern_node="#6f6f6f"
         layout_node="#6f6f6f"
-        geometry_node="#d65219"
+        geometry_node="#33ae89"
         attribute_node="#4d5280"
         simulation_zone="#674d5c33"
         repeat_zone="#766a3d33"
+        foreach_geometry_element_zone="#33527f33"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1029,7 +1035,7 @@
             button_text_hi="#e0e0e0"
             navigation_bar="#2c3037ff"
             execution_buts="#2c3037ff"
-            tab_active="#803f52"
+            tab_active="#446673"
             tab_inactive="#31363d"
             tab_back="#31363dff"
             tab_outline="#2c3037ff"
@@ -1636,18 +1642,6 @@
         >
       </ThemeFontStyle>
     </panel_title>
-    <widget_label>
-      <ThemeFontStyle
-        points="13"
-        character_weight="500"
-        shadow="3"
-        shadow_offset_x="0"
-        shadow_offset_y="-1"
-        shadow_alpha="0.5"
-        shadow_value="0"
-        >
-      </ThemeFontStyle>
-    </widget_label>
     <widget>
       <ThemeFontStyle
         points="13.5"
@@ -1660,5 +1654,17 @@
         >
       </ThemeFontStyle>
     </widget>
+    <tooltip>
+      <ThemeFontStyle
+        points="11"
+        character_weight="400"
+        shadow="0"
+        shadow_offset_x="0"
+        shadow_offset_y="-1"
+        shadow_alpha="0.5"
+        shadow_value="0"
+        >
+      </ThemeFontStyle>
+    </tooltip>
   </ThemeStyle>
 </bpy>

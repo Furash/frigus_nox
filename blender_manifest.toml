@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "Frigus_Nox"
+version = "1.0.2"
+name = "Frigus Nox"
+tagline = "Frigus Nox theme"
+maintainer = "Cyrill Vitkovskiy"
+type = "theme"
+website = "https://github.com/Furash/Frigus_Nox"
+tags = ["Dark"]
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
