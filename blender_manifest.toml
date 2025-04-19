@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "Frigus_Nox"
-version = "1.0.2"
+version = "1.0.4"
 name = "Frigus Nox"
 tagline = "Frigus Nox theme"
 maintainer = "Cyrill Vitkovskiy"
